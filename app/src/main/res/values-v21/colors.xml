@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CDDC39</color>
+    <color name="colorPrimaryDark">#9E9D24</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="windowsBackground">#F5F5F5</color>
+    <color name="buttonTransparent">#50FFFFFF</color>
+    <color name="struktaGreen">#c0d932</color>
+</resources>

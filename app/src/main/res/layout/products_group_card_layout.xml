@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/productGroup_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="#fcfcfc"
+        app:cardCornerRadius="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/group_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/image"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="42dp" />
+
+            <TextView
+                android:id="@+id/group_name_text"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textSize="14sp"
+                android:textAlignment="gravity"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#3d3d3d"
+                android:layout_alignParentBottom="true"
+                android:text="GROUNDWORKS AND DRAINAGE"/>
+
+            <ImageView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:src="@android:drawable/divider_horizontal_dark"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingBottom="1dp"
+                android:paddingTop="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_centerVertical="true"
+                android:layout_alignTop="@+id/group_name_text"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
